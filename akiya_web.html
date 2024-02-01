@@ -3,14 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<script src="dist/aframe-master.min.js"></script>
+	<style >.tab{display: none;}</style>
 	<link rel="stylesheet" type="text/css" href="main_style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>akiya_test</title>
 </head>
 <body>
 	<h1>test</h1>
-	<iframe id="mainwindow" src="/relation/vr_1.html" width="400px" height="600px"></iframe>
-	<iframe id="mainwindow" src="/relation/vr_2.html" width="400px" height="600px"></iframe>
+	<div id="tab1" class="tab">
+		<iframe id="mainwindow" src="/relation/vr_1.html" width="400px" height="600px"></iframe>
+	</div>
+	<div id="tab2" class="tab">
+		<iframe id="mainwindow" src="/relation/vr_2.html" width="400px" height="600px"></iframe>
+	</div>
+	<button onclick="openTab('tab1')">納戸</button>
+    <button onclick="openTab('tab2')">洗面所</button>
 
 </body>
+<script src="main_script.js"></script>
 </html>
