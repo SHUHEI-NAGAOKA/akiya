@@ -1,0 +1,99 @@
+#main_image{
+	width: 100%;
+}
+
+.maincontainer{
+	padding-top: 80px;
+}
+
+.maincontainer h2{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+.houselist { 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.content {
+	width: 300px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.house_content{
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 7px;
+	transition: background-color 0.3s;
+	border-radius: 5px;
+}
+
+.house_content:hover{
+	background-color: #DDAADD;
+}
+
+.house_content span{
+	margin: 0px;
+	padding: 0px;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.house_header{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.house_area{
+	width: 100px;
+	font-weight: bold;
+	color: white;
+	padding: 90px;
+	background-color: #00AA00;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.house_num{
+	width: 90px;
+	display: inline-block;
+}
+
+.house_contract{
+	width: 40px;
+	margin: 0px;
+	padding: 10px;
+	border: solid 1px;
+}
+
+.house_detail{
+	padding-top: 5px;
+	width: 300px;
+	display: flex;
+}
+
+#yaazami{
+	background-color: #883399;
+}
+
+#tyuo{
+	background-color: #888888;
+}
+
+#ooke{
+	background-color: #DDAA00;
+}
+
+#taki{
+	background-color: #7777FF;
+}
