@@ -1,11 +1,67 @@
-#main_image{
+/* ヘッダーの記述 */
+.headline{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+}
+
+.logo_block{
+	width: 20%;
+	display: flex;
+}
+
+#logo_mark{
 	width: 100%;
 }
 
-h2{
-	text-align: center;
+.logo_title{
+	width: 100%;
+}
+
+.logo_text{
+	width: 100%;
+	font-size: 1em;
+}
+
+.site_title{
+	width: 100%;
 	font-size: 1.5em;
-	font-weight: 100;
+}
+
+.site_title span{
+	font-family: MS PGothic;
+}
+
+.info_block{
+	width: 45%;
+	display: flex;
+	justify-content: right;
+}
+
+.info_content{
+	text-decoration: none;
+	padding-right: 15px;
+	color: gray;
+	transition: color 0.3s ease;
+}
+
+.info_content:hover{
+	color: red;
+}
+
+/* ヘッダーの記述終了 */
+
+#main_image{
+	width: 100%;
 }
 
 .maincontainer{
@@ -14,6 +70,58 @@ h2{
 	justify-content: center;
 
 }
+
+/* サイトマップの記述 */
+
+.sitemap{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.sitemap_btn{
+	text-decoration: none;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sitemap_content{
+	height: 50px;
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	color: gray;
+	font-weight: bold;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.sitemap_content:hover{
+	background-color: hotpink;
+	color: white;
+}
+
+#target{
+	background-color: hotpink;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+#target:hover{
+	background-color: pink;
+}
+
+
+/* サイトマップの記述終わり */
 
 .houselist { 
 	width: 800px;
@@ -113,7 +221,11 @@ h2{
 }
 
 /* サイドバーの記述終わり */
-
+.main_text{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 100;
+}
 
 .content{
 	padding: 7px;
@@ -169,7 +281,6 @@ h2{
 }
 
 .house_contract{
-	color: #FF22FF;
 	width: 60px;
 	text-align: center;
 	font-weight: bold;
@@ -180,6 +291,14 @@ h2{
 	justify-content: center;
 	align-items: center;
 	margin-right: 20px;
+}
+
+#rent{
+	color: #2222FF;
+}
+
+#buy{
+	color: #FF2222;
 }
 
 .house_contract p{

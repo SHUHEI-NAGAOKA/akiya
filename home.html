@@ -8,44 +8,78 @@
 </head>
 <body>
 	<header>
-		<div class="logo">
-			<a href="################">
-				<img src="picture/city_logo.jpg">
-				<h1>那須烏山市空き家バンク</h1>
-				<h1>空き家バンクサンプルサイト</h1>
-			</a>
-		</div>
-		<div class="info_block">
-			<a class="info_content" href="###########">ホーム</a>
-			<a class="info_content" href="##########">サイトポリシー</a>
-			<a class="info_content" href="#########">お問い合わせ</a>
-			<a class="info_content" href="########">個人情報保護方針</a>
+		<div class="headline">
+			<div class="logo_field">
+				<a class="logo" href="################">
+					<div class="logo_block">
+						<img id="logo_mark" src="picture/city_logo.jpg">
+					</div>
+					<div class="logo_title">
+						<div class="logo_text">
+							<span>那須烏山市空き家バンク</span>
+						</div>
+						<div  class="site_title">
+							<span>空き家バンクサンプルサイト</span>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="info_block">
+				<a class="info_content" href="###########">ホーム</a>
+				<a class="info_content" href="##########">サイトポリシー</a>
+				<a class="info_content" href="#########">お問い合わせ</a>
+				<a class="info_content" href="########">個人情報保護方針</a>
+			</div>
 		</div>
 		<div class="sitemap">
-			<a class="sitemap_btn" href="#">物件一覧</a>
-			<a class="sitemap_btn" href="##">空き家バンクとは</a>
-			<a class="sitemap_btn" href="###">借りたい・買いたい</a>
-			<a class="sitemap_btn" href="####">貸したい・売りたい</a>
-			<a class="sitemap_btn" href="#####">よくある質問</a>
-			<a class="sitemap_btn" href="######">リンク</a>
+			<a class="sitemap_btn" href="#">
+				<div id="target" class="sitemap_content">
+					<h3 class="nav_text">物件一覧</h3>
+				</div>
+			</a>
+			<a class="sitemap_btn" href="#">
+				<div class="sitemap_content">
+					<h3 class="nav_text">空き家バンクとは</h3>
+				</div>
+			</a>
+			<a class="sitemap_btn" href="#">
+				<div class="sitemap_content">
+					<h3 class="nav_text">借りたい・買いたい</h3>
+				</div>
+			</a>
+			<a class="sitemap_btn" href="#">
+				<div class="sitemap_content">
+					<h3 class="nav_text">貸したい・売りたい</h3>
+				</div>
+			</a>
+			<a class="sitemap_btn" href="#">
+				<div class="sitemap_content">
+					<h3 class="nav_text">よくある質問</h3>
+				</div>
+			</a>
+			<a class="sitemap_btn" href="#">
+				<div class="sitemap_content">
+					<h3 class="nav_text">リンク</h3>
+				</div>
+			</a>
 		</div>
 		<div class="showwindow">
 			<img id="main_image" width="800px" height="400px" src="picture/kaminaga_wasitu.JPG">
 		</div>
 	</header>
 	<main>
-		<h2>紹介物件一覧（未成約のみ表示）</h2>
+		<h2 class="main_text">紹介物件一覧（未成約のみ表示）</h2>
 		<div class="maincontainer">
 			<div class="houselist">
 				<div class="content">
-					<a class="house_content" href="##">
+					<a class="house_content" href="akiya_web.html">
 						<img class="house_img" src="house_picture/house_yaazami.jpg">
 						<section class="house_header">
 							<span id="yaazami" class="house_area">谷浅見</span>
 							<span class="house_num"> No.RX-X</span>
 						</section>
 						<section class="house_detail">
-							<span class="house_contract"><p>売買</p></span>
+							<span id="buy" class="house_contract"><p>売買</p></span>
 							<span class="house_much"><p>1200万円</p></span>
 						</section>
 						<section class="house_text">
@@ -61,8 +95,8 @@
 							<span class="house_num"> No.RX-X</span>
 						</section>
 						<section class="house_detail">
-							<span class="house_contract"><p>賃貸</p></span>
-							<span class="house_much"><p>200万円</p></span>
+							<span id="rent" class="house_contract"><p>賃貸</p></span>
+							<span class="house_much"><p>20万円/月</p></span>
 						</section>
 						<section class="house_text">
 							<p>通気性抜群！人間も自然の一部。鳥小屋で共に息づく</p>
@@ -77,8 +111,8 @@
 							<span class="house_num"> No.RX-X</span>
 						</section>
 						<section class="house_detail">
-							<span class="house_contract"><p>売買</p></span>
-							<span class="house_much"><p>1000万円</p></span>
+							<span id="buy" id="rent" class="house_contract"><p>売買</p></span>
+							<span class="house_much"><p>10000万円</p></span>
 						</section>
 						<section class="house_text">
 							<p>ルームシェア用極小物件　鳥の気持ちを味わえる魅力的な住宅！</p>
@@ -93,8 +127,8 @@
 							<span class="house_num"> No.RX-X</span>
 						</section>
 						<section class="house_detail">
-							<span class="house_contract"><p>賃貸</p></span>
-							<span class="house_much"><p>12000万円</p></span>
+							<span id="rent" class="house_contract"><p>賃貸</p></span>
+							<span class="house_much"><p>12万円/月</p></span>
 						</section>
 						<section class="house_text">
 							<p>立地を選び放題！日当たり超良好移動式物件</p>
@@ -109,7 +143,7 @@
 							<span class="house_num"> No.RX-X</span>
 						</section>
 						<section class="house_detail">
-							<span class="house_contract"><p>売買</p></span>
+							<span id="buy" class="house_contract"><p>売買</p></span>
 							<span class="house_much"><p>500万円</p></span>
 						</section>
 						<section class="house_text">
