@@ -64,13 +64,6 @@
 	width: 100%;
 }
 
-.maincontainer{
-	padding-top: 80px;
-	display: flex;
-	justify-content: center;
-
-}
-
 /* サイトマップの記述 */
 
 .sitemap{
@@ -134,10 +127,20 @@
 
 /* サイトマップの記述終わり */
 
-.houselist { 
-	width: 800px;
+.maincontainer{
+	width: 100%;
+	padding-top: 80px;
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.main_view{
+	width: 70%;
+}
+
+.mainwindow{
+	width: 100%;
 }
 
 /*サイドバーについての記述 */
@@ -232,122 +235,3 @@
 }
 
 /* サイドバーの記述終わり */
-.main_text{
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: 100;
-}
-
-.content{
-	padding: 7px;
-	text-decoration: none;
-	transition: background-color 0.3s ease;
-}
-
-.content:hover{
-	background-color: #E2C4AC;
-}
-
-.house_content{
-	width: 250px;
-	height: 400px;
-	text-decoration: none;
-}
-
-
-.house_img{
-	width: 250px;
-	height: 200px;
-}
-
-.house_header{
-	width: 250px;
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.house_area{
-	width: 100px;
-	font-weight: bold;
-	padding: 1px;
-	border-radius: 5px;
-	color: white;
-	margin-right: 30px;
-	text-align: center;
-}
-
-.house_num{
-	color: black;
-	font-weight: bold;
-}
-
-.house_detail{
-	width: 250px;
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.house_contract{
-	width: 60px;
-	text-align: center;
-	font-weight: bold;
-	padding: 3px;
-	margin: 0px;
-	border: solid 1px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-right: 20px;
-}
-
-#rent{
-	color: #2222FF;
-}
-
-#buy{
-	color: #FF2222;
-}
-
-.house_contract p{
-	margin:0px;
-}
-
-.house_much{
-	color: red;
-	font-weight: bold;
-}
-
-.house_text{
-	width: 250px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.house_text p{
-	color: #777777;
-}
-
-#yaazami{
-	background-color: #883399;
-}
-
-#tyuo{
-	background-color: #888888;
-}
-
-#ooke{
-	background-color: #DDAA00;
-}
-
-#taki{
-	background-color: #7777FF;
-}
-
-#kanaga{
-	background-color: #77CC77;
-}
