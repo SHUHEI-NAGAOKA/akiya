@@ -92,7 +92,7 @@
 .sitemap_content{
 	height: 50px;
 	padding-top:5px;
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-right: 10px;
 	padding-bottom: 5px;
 	color: gray;
@@ -110,6 +110,11 @@
 	color: white;
 }
 
+.nav_text{
+	padding-left: 10px;
+	border-left: solid gray 0.5px;
+}
+
 #target{
 	background-color: hotpink;
 	color: white;
@@ -119,6 +124,12 @@
 #target:hover{
 	background-color: pink;
 }
+
+#left_text{
+	border: none;
+}
+
+
 
 
 /* サイトマップの記述終わり */

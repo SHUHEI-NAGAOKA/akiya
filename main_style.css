@@ -1,3 +1,358 @@
+/* ヘッダーの記述 */
+.headline{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+}
+
+.logo_block{
+	width: 20%;
+	display: flex;
+}
+
+#logo_mark{
+	width: 100%;
+}
+
+.logo_title{
+	width: 100%;
+}
+
+.logo_text{
+	width: 100%;
+	font-size: 1em;
+}
+
+.site_title{
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.site_title span{
+	font-family: MS PGothic;
+}
+
+.info_block{
+	width: 45%;
+	display: flex;
+	justify-content: right;
+}
+
+.info_content{
+	text-decoration: none;
+	padding-right: 15px;
+	color: gray;
+	transition: color 0.3s ease;
+}
+
+.info_content:hover{
+	color: red;
+}
+
+/* ヘッダーの記述終了 */
+
+#main_image{
+	width: 100%;
+}
+
+.maincontainer{
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+
+}
+
+/* サイトマップの記述 */
+
+.sitemap{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.sitemap_btn{
+	text-decoration: none;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sitemap_content{
+	height: 50px;
+	padding-top:5px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	color: gray;
+	font-weight: bold;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.sitemap_content:hover{
+	background-color: hotpink;
+	color: white;
+}
+
+.nav_text{
+	padding-left: 10px;
+	border-left: solid gray 0.5px;
+}
+
+#target{
+	background-color: hotpink;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+#target:hover{
+	background-color: pink;
+}
+
+#left_text{
+	border: none;
+}
+
+
+
+
+/* サイトマップの記述終わり */
+
+.houselist { 
+	width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*サイドバーについての記述 */
+.sidelist{
+	width: 17%;
+	padding-left: 10px;
+}
+
+.registration_btn{
+	text-decoration: none;
+	padding: 0px;
+}
+
+.registration_btn h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn_container{
+	width: 100%;
+	color: white;
+	background-color: #FF11AA;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+
+.btn_container:hover{
+	background-color: #FFAAAA;
+}
+
+.search_menu{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.search_menu p{
+	width: 95%;
+	margin-top: 10px;
+	padding-left:10px ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #F2E4DC;
+	border: solid 1px gray;
+}
+
+.search_menu a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu_list{
+	font-weight: bold;
+	color: black;
+	width: 95%;
+	margin: 0px;
+	padding-left:10px ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: white;
+	border: solid 1px gray;
+	transition: background-color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.menu_bar{
+	font-weight: bold;
+	color: grey;
+	width: 95%;
+	margin: 0px;
+	padding-left:10px ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: white;
+	border: solid 1px gray;
+	transition: background-color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.menu_bar:hover{
+	background-color: #EFEFEF;
+	color: black;
+}
+
+.menu_bar span{
+	transition: background-color 0.3s ease;
+}
+
+/* サイドバーの記述終わり */
+.main_text{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+.content{
+	padding: 7px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.content:hover{
+	background-color: #E2C4AC;
+}
+
+.house_content{
+	width: 250px;
+	height: 400px;
+	text-decoration: none;
+}
+
+
+.house_img{
+	width: 250px;
+	height: 200px;
+}
+
+.house_header{
+	width: 250px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_area{
+	width: 100px;
+	font-weight: bold;
+	padding: 1px;
+	border-radius: 5px;
+	color: white;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.house_num{
+	color: black;
+	font-weight: bold;
+}
+
+.house_detail{
+	width: 250px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_contract{
+	width: 60px;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px;
+	border: solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+}
+
+#rent{
+	color: #2222FF;
+}
+
+#buy{
+	color: #FF2222;
+}
+
+.house_contract p{
+	margin:0px;
+}
+
+.house_much{
+	color: red;
+	font-weight: bold;
+}
+
+.house_text{
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_text p{
+	color: #777777;
+}
+
+#yaazami{
+	background-color: #883399;
+}
+
+#tyuo{
+	background-color: #888888;
+}
+
+#ooke{
+	background-color: #DDAA00;
+}
+
+#taki{
+	background-color: #7777FF;
+}
+
+#kanaga{
+	background-color: #77CC77;
+}
+
+
 #mainwindow {
 	background-color: red;
 	width: 60%;
