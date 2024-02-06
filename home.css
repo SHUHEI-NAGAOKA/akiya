@@ -2,90 +2,204 @@
 	width: 100%;
 }
 
-.maincontainer{
-	padding-top: 80px;
-}
-
-.maincontainer h2{
+h2{
 	text-align: center;
 	font-size: 1.5em;
 	font-weight: 100;
 }
 
-.houselist { 
+.maincontainer{
+	padding-top: 80px;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
+
 }
 
-.content {
-	width: 300px;
+.houselist { 
+	width: 800px;
 	display: flex;
-	align-content: center;
-	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+/*サイドバーについての記述 */
+.sidelist{
+	width: 17%;
+	padding-left: 10px;
+}
+
+.registration_btn{
+	text-decoration: none;
+	padding: 0px;
+}
+
+.registration_btn h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn_container{
+	width: 100%;
+	color: white;
+	background-color: #FF11AA;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+
+.btn_container:hover{
+	background-color: #FFAAAA;
+}
+
+.search_menu{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.search_menu p{
+	width: 95%;
+	margin-top: 10px;
+	padding-left:10px ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #F2E4DC;
+	border: solid 1px gray;
+}
+
+.search_menu a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu_list{
+	font-weight: bold;
+	color: black;
+	width: 95%;
+	margin: 0px;
+	padding-left:10px ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: white;
+	border: solid 1px gray;
+	transition: background-color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.menu_bar{
+	font-weight: bold;
+	color: grey;
+	width: 95%;
+	margin: 0px;
+	padding-left:10px ;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: white;
+	border: solid 1px gray;
+	transition: background-color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.menu_bar:hover{
+	background-color: #EFEFEF;
+	color: black;
+}
+
+.menu_bar span{
+	transition: background-color 0.3s ease;
+}
+
+/* サイドバーの記述終わり */
+
+
+.content{
+	padding: 7px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.content:hover{
+	background-color: #E2C4AC;
 }
 
 .house_content{
-	width: 300px;
+	width: 250px;
 	height: 400px;
 	text-decoration: none;
-	margin-top: 10px;
-	margin-left: 5px;
-	margin-right: 5px;
-	padding: 7px;
-	transition: background-color 0.3s;
-	border-radius: 5px;
 }
 
-.house_content:hover{
-	background-color: #DDAADD;
-	display: flex;
-	justify-content: center;
-}
 
-.house_content span{
-	margin: 0px;
-	padding: 0px;
-	flex-grow: 0.5;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.house_img{
+	width: 250px;
+	height: 200px;
 }
 
 .house_header{
-	width: 200px;
+	width: 250px;
+	height: 40px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .house_area{
+	width: 100px;
 	font-weight: bold;
-	color: white;
-	background-color: #00AA00;
+	padding: 1px;
 	border-radius: 5px;
+	color: white;
+	margin-right: 30px;
+	text-align: center;
 }
 
 .house_num{
-	width: 90px;
-	padding: 10px;
+	color: black;
+	font-weight: bold;
 }
 
 .house_detail{
-	display: flex;
-	width: 200px;
+	width: 250px;
 	height: 40px;
-	padding-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_contract{
+	color: #FF22FF;
+	width: 60px;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px;
+	border: solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
 }
 
 .house_contract p{
-	padding-left: 8px;
-	padding-right: 8px;
-	border: solid 1px;
+	margin:0px;
 }
 
-.house_much p{
-	padding-left: 8px;
-	padding-right: 8px;
+.house_much{
+	color: red;
+	font-weight: bold;
+}
+
+.house_text{
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_text p{
+	color: #777777;
 }
 
 #yaazami{
@@ -102,4 +216,8 @@
 
 #taki{
 	background-color: #7777FF;
+}
+
+#kanaga{
+	background-color: #77CC77;
 }
