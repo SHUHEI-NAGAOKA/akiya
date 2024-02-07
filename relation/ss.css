@@ -127,12 +127,14 @@
 
 /* サイトマップの記述終わり */
 
+/* メインウィンドウのコード */
+
 .maincontainer{
 	width: 100%;
 	padding-top: 80px;
 	display: flex;
 	justify-content: center;
-
+	padding-bottom: 30px;
 }
 
 .main_view{
@@ -142,7 +144,24 @@
 
 .mainwindow{
 	width: 90%;
+	border: solid 2px black;
 }
+
+.tab_btn{
+	padding: 3px;
+	background-color: lightgray;
+	border: solid 1px black;
+	transition: background-color 0.3s ease;
+}
+
+.tab_btn:hover{
+	background-color: white;
+}
+
+
+/*　メインウィンドウのコード終わり*/
+
+
 
 /*サイドバーについての記述 */
 .sidelist{
