@@ -245,7 +245,7 @@
 }
 
 .content:hover{
-	background-color: #E2C4AC;
+	background-color: lightgray;
 }
 
 .house_content{
@@ -402,6 +402,11 @@
 .footer_menu_btn{
 	color: white;
 	margin-left: 15px;
+	transition: color 0.2s ease;
+}
+
+.footer_menu_btn:hover{
+	color: gray;
 }
 
 .footer_menu_btn span{

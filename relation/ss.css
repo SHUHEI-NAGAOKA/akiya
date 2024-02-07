@@ -137,10 +137,11 @@
 
 .main_view{
 	width: 70%;
+	text-align: center;
 }
 
 .mainwindow{
-	width: 100%;
+	width: 90%;
 }
 
 /*サイドバーについての記述 */
@@ -235,3 +236,90 @@
 }
 
 /* サイドバーの記述終わり */
+
+/* フッターのコード */
+
+.footer_menu_bar{
+	padding: 20px;
+	height: 30px;
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid 1px gray;
+}
+
+.footer_menu_bar a{
+	text-decoration: none;
+}
+
+.footer_menu_btn{
+	color: white;
+	margin-left: 15px;
+	transition: color 0.2s ease;
+}
+
+.footer_menu_btn:hover{
+	color: gray;
+}
+
+.footer_menu_btn span{
+	padding-left: 15px;
+	border-left: solid 0.5px white;
+}
+
+.footer_info_block{
+	padding: 20px;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer_info_block h3{
+	color: white;
+	font-size: 1em;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer_text_block{
+	width: 350px;
+}
+
+.footer_contact_block{
+	display: flex;
+	justify-content: center;
+}
+
+.tell_text{
+	font-size: 2em !important;
+	padding-right: 20px !important;
+}
+
+.tell_block{
+	padding: 5px;
+}
+
+.mail_block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: solid 0.5px white;
+	padding: 5px;
+}
+
+.footer_mail{
+	text-decoration: none;
+}
+
+.mail_block p{
+	color: white;
+	padding: 10px !important;
+}
+
+.mail_mark{
+	width: 50px;
+	height: 40px;
+}
+/* フッターのコード終了 */*/*/
