@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="http://localhost:8000/relation/ss.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost:8000/relation/s.css">
 	<style >.tab{display: none;}</style>
 	<title>空き家バンクHP HOME</title>
 </head>
@@ -70,16 +70,25 @@
 	</header>
 	<main>
 		<div class="maincontainer">
-			<div class="main_view">
-				<div id="tab1" class="tab">
-					<iframe class="mainwindow" src="/relation/vr_1.html" height="600px"></iframe>
+			<div class="view_container">
+				<h3 class="introduction_text">【No. R5-2】蔵つき・納付き・庭付きの超収納物件</h3>
+				<div class="house_introduction">
+					<img class="house_image" src="house_picture/house_yaazami.jpg">
+					<h3 class="intro_text">収納は大谷石の蔵が一つ、納屋が二つあり、大容量。また、庭や森の敷地がついており季節によっては柚子などの果実が収穫できる。</h3>
 				</div>
-				<div id="tab2" class="tab">
-					<iframe class="mainwindow" src="/relation/vr_2.html" height="600px"></iframe>
+				<div class="main_view">
+					<h3>▼ VRビューワー</h3>
+					<div id="tab1" class="tab">
+						<iframe class="mainwindow" src="/relation/vr_1.html" height="600px"></iframe>
+					</div>
+					<div id="tab2" class="tab">
+						<iframe class="mainwindow" src="/relation/vr_2.html" height="600px"></iframe>
+					</div>
+					<button class="tab_btn" onclick="openTab('tab1')">納戸</button>
+	    			<button class="tab_btn" onclick="openTab('tab2')">洗面所</button>
 				</div>
-				<button class="tab_btn" onclick="openTab('tab1')">納戸</button>
-    			<button class="tab_btn" onclick="openTab('tab2')">洗面所</button>
 			</div>
+				
 			<div class="sidelist">
 				<div>
 					<a class="registration_btn" href="###">
